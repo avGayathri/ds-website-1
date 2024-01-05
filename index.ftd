@@ -4,6 +4,22 @@
 
 -- ds.page:
 
+-- header:
+
+-- hero-1:
+
+-- end: ds.page
+
+
+
+
+
+
+
+
+
+-- component header:
+
 -- ds.section-row:
 spacing: $ds.spaces.horizontal-gap.space-between
 
@@ -23,12 +39,7 @@ link: /
 -- ds.header-link: Paths
 link: /
 
-/-- ds.phosphor-icon-button: What would you like to learn?
-icon: magnifying-glass
-link: /search/
-
 -- end: ds.row
-
 
 -- ds.row:
 width: hug-content
@@ -45,6 +56,37 @@ link: index.html
 
 -- end: ds.section-row
 
--- end: ds.page
+
+-- end: header
 
 
+
+
+
+
+
+
+
+-- component hero-1:
+
+-- ds.section-row:
+
+-- ds.column:
+width.fixed.vw: 36
+align-content: center
+
+-- ds.heading-hero: Ready to build something awesome?
+align: center
+
+-- ds.heading-tiny: we create practical screencasts for awesome developers
+align: center
+
+-- ds.phosphor-icon-button: | search our library, e.g.learn vue 
+icon: magnifying-glass
+link: /search/
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: hero-1
