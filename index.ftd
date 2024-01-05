@@ -11,35 +11,33 @@ spacing: $ds.spaces.horizontal-gap.space-between
 width: hug-content
 
 -- ftd.image:
-src: https://assets-global.website-files.com/5f2c87246b17fcf662282594/6125a1fa1160592fd373d33b_Dropbase%20logo%20website.svg
-width.fixed.px: 150
+src: $assets.files.assets.codecourse-4.svg
+width.fixed.px: 40
 
--- ds.header-link: Docs
+-- ds.header-link: Library 
 link: /
 
--- ds.header-link: Blog
+-- ds.header-link: Subjects
 link: /
 
--- ds.header-link: Pricing
+-- ds.header-link: Paths
 link: /
 
--- ds.header-link: Contact
-link: /
+/-- ds.phosphor-icon-button: What would you like to learn?
+icon: magnifying-glass
+link: /search/
 
 -- end: ds.row
+
 
 -- ds.row:
 width: hug-content
 
--- ds.phosphor-icon-button: Search
-icon: magnifying-glass
-link: /search/
-
--- ds.header-link: Login
+-- ds.header-link: Sign in
 link: /
 
--- button.button: Book Demo
-role: primary
+-- button.button: Join Pro
+role: tertiary
 large: true
 link: index.html
 
