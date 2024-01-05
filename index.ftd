@@ -4,6 +4,34 @@
 
 -- ds.page:
 
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+
+-- header:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.extra-large
+
+-- hero-1:
+
+-- hero-2:
+
+-- end: ds.section-column
+
+-- end: ds.section-column
+
+-- end: ds.page
+
+
+
+
+
+
+
+
+
+-- component header:
+
 -- ds.section-row:
 spacing: $ds.spaces.horizontal-gap.space-between
 
@@ -23,12 +51,7 @@ link: /
 -- ds.header-link: Paths
 link: /
 
-/-- ds.phosphor-icon-button: What would you like to learn?
-icon: magnifying-glass
-link: /search/
-
 -- end: ds.row
-
 
 -- ds.row:
 width: hug-content
@@ -45,6 +68,82 @@ link: index.html
 
 -- end: ds.section-row
 
--- end: ds.page
+
+-- end: header
 
 
+
+
+
+
+
+
+
+-- component hero-1:
+
+-- ds.section-row:
+
+-- ds.column:
+width.fixed.vw: 36
+align-content: center
+
+-- ds.heading-hero: Ready to build something awesome?
+align: center
+
+-- ds.heading-tiny: we create practical screencasts for awesome developers
+align: center
+
+-- ds.phosphor-icon-button: | search our library, e.g.learn vue 
+icon: magnifying-glass
+link: /search/
+kind: tertiary
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: hero-1
+
+
+
+
+
+
+
+
+
+-- component hero-2:
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.row:
+width: hug-content
+
+-- ds.column:
+width.fixed.vw: 36
+align-content: center
+
+-- ds.heading-small: Practical projects to get you ahead
+align: left
+
+-- ds.heading-tiny: Rather than just tech theory, we focus on real code to inspire your next project.learning should'nt be boring so lets have some fun.
+align: left
+
+-- end: ds.column
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.phosphor-icon-button: Browse library
+icon: magnifying-glass
+link: /search/
+kind: tertiary
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: hero-2
