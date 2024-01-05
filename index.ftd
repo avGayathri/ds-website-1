@@ -8,6 +8,8 @@
 
 -- hero-1:
 
+-- hero-2:
+
 -- end: ds.page
 
 
@@ -90,3 +92,44 @@ link: /search/
 -- end: ds.section-row
 
 -- end: hero-1
+
+
+
+
+
+
+
+
+
+-- component hero-2:
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.row:
+
+-- ds.column:
+width.fixed.vw: 36
+align-content: center
+
+-- ds.heading-small: Practical projects to get you ahead
+align: left
+
+-- ds.heading-tiny: Rather than just tech theory, we focus on real code to inspire your next project.learning should'nt be boring so lets have some fun.
+align: left
+
+-- end: ds.column
+
+-- end: ds.row
+
+-- ds.row:
+
+-- ds.phosphor-icon-button: Browse library
+icon: magnifying-glass
+link: /search/
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: hero-2
