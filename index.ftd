@@ -4,11 +4,21 @@
 
 -- ds.page:
 
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+
 -- header:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.extra-large
 
 -- hero-1:
 
 -- hero-2:
+
+-- end: ds.section-column
+
+-- end: ds.section-column
 
 -- end: ds.page
 
@@ -86,6 +96,7 @@ align: center
 -- ds.phosphor-icon-button: | search our library, e.g.learn vue 
 icon: magnifying-glass
 link: /search/
+kind: tertiary
 
 -- end: ds.column
 
@@ -107,6 +118,7 @@ link: /search/
 spacing: $ds.spaces.horizontal-gap.space-between
 
 -- ds.row:
+width: hug-content
 
 -- ds.column:
 width.fixed.vw: 36
@@ -123,10 +135,12 @@ align: left
 -- end: ds.row
 
 -- ds.row:
+width: hug-content
 
 -- ds.phosphor-icon-button: Browse library
 icon: magnifying-glass
 link: /search/
+kind: tertiary
 
 -- end: ds.row
 
