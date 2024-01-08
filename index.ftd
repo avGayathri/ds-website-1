@@ -16,6 +16,12 @@ spacing: $ds.spaces.vertical-gap.extra-large
 
 -- hero-2:
 
+-- testimonial-1:
+
+-- hero-3:
+
+-- testimonial-2:
+
 -- end: ds.section-column
 
 -- end: ds.section-column
@@ -147,3 +153,181 @@ kind: tertiary
 -- end: ds.section-row
 
 -- end: hero-2
+
+
+
+
+
+
+
+
+
+
+-- component testimonial-1:
+
+-- ds.section-row:
+
+-- ds.row:
+radius: $ds.radius.large
+background.solid: #f3f2f0
+spacing: $ds.spaces.horizontal-gap.large
+inset: $ds.spaces.inset-square.medium
+
+-- ds.row:
+radius: $ds.radius.round
+width.fixed.px: 120
+height.fixed.px: 120
+
+-- ftd.image:
+src: $assets.files.assets.client-logo-1.png
+width: fill-container
+height: fill-container
+border-radius.px: 100
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.column:
+width.fixed.vw: 36
+align-content: left
+
+-- ds.copy-small: 
+align: left
+
+My career started as a designer. Out of necessity I needed to learn how to handle the entire stack. Codecourse took me from basically no knowledge of development to being able to handle every aspect of it.
+
+-- ds.fine-print: 
+align: right
+
+Josh Stobbs, Ontario, Canada anvildesign.ca
+
+-- end: ds.column
+
+-- end: ds.row
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: testimonial-1
+
+
+
+
+
+
+
+
+
+
+-- component hero-3:
+
+-- ds.section-row:
+
+-- ds.row:
+background.solid: #1e90ff
+inset: $ds.spaces.inset-square.large
+spacing: $ds.spaces.horizontal-gap.extra-extra-large
+
+-- ds.row:
+width: hug-content
+
+-- ds.column:
+width: hug-content
+align-content: left
+
+-- ds.row:
+width.fixed.vw: 14
+
+-- ds.heading-small: Unlimited access to everything with pro membership
+align: left
+
+-- end: ds.row
+
+-- ds.row:
+width.fixed.vw: 28
+
+-- ds.heading-tiny: For the price of few coffees a month, you get access to our entire library of content, and more.
+align: left
+
+-- end: ds.row
+
+-- end: ds.column
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.phosphor-icon-button: Browse library
+icon: magnifying-glass
+link: /search/
+kind: tertiary
+
+-- end: ds.row
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: hero-3
+
+
+
+
+
+
+
+
+
+-- component testimonial-2:
+
+-- ds.section-row:
+
+-- ds.row:
+radius: $ds.radius.large
+background.solid: #f3f2f0
+spacing: $ds.spaces.horizontal-gap.large
+inset: $ds.spaces.inset-square.medium
+
+-- ds.row:
+radius: $ds.radius.round
+width.fixed.px: 120
+height.fixed.px: 120
+
+-- ftd.image:
+src: $assets.files.assets.client-logo-2.png
+width: fill-container
+height: fill-container
+border-radius.px: 100
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.column:
+width.fixed.vw: 36
+align-content: left
+
+-- ds.copy-small: 
+align: left
+
+I credit codecourse as the single most beneficial learning resource to my development career. When I was learning my first programming language, Codecourse taught me how to develop simple applications and introduced me to the fundamentals. Now I develop complex applications and I'm a senior developer with my company. You put in the effort, Codecourse brings the knowledge! 
+
+-- ds.fine-print: 
+align: right
+
+Mark Townsend, Houseton, TX(@mtownsend5512)
+
+-- end: ds.column
+
+-- end: ds.row
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: testimonial-2
