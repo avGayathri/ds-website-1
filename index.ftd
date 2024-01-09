@@ -111,6 +111,7 @@ align: center
 icon: magnifying-glass
 link: /search/
 kind: tertiary
+width: full
 
 -- end: ds.column
 
@@ -155,6 +156,7 @@ width: hug-content
 icon: magnifying-glass
 link: /search/
 kind: tertiary
+width: full
 
 -- end: ds.row
 
@@ -470,6 +472,7 @@ spacing: $ds.spaces.horizontal-gap.space-between
 -- ds.section-column:
 
 -- ds.row:
+align-content: top-center
 inset: $ds.spaces.inset-square.large
 
 -- ds.column:
