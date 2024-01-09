@@ -565,11 +565,13 @@ link: /
 -- end: ds.row
 
 -- ds.row:
-;;background.solid: red
-align-content: right
+align-content: center
 width: fill-container
+inset: $ds.spaces.inset-square.small
+background.solid: $ds.colors.background.step-2
 
--- ds.copyright-text: © 2019 Codecourse Ltd. All rights reserved. Born in London, UK.company number 09041072.
+-- ds.copy-regular: © 2019 Codecourse Ltd. All rights reserved. Born in London, UK.company number 09041072.
+align: center
 
 -- end: ds.row
 
