@@ -28,6 +28,8 @@ spacing: $ds.spaces.vertical-gap.extra-large
 
 -- testimonial-2:
 
+-- footer:
+
 -- end: ds.column
 
 -- end: ds.section-column
@@ -453,3 +455,124 @@ spacing: $ds.spaces.horizontal-gap.space-between
 -- end: ds.section-row
 
 -- end: card-container
+
+
+
+
+
+
+
+
+
+
+-- component footer:
+
+-- ds.section-column:
+
+-- ds.row:
+inset: $ds.spaces.inset-square.large
+
+-- ds.column:
+align-content: left
+inset: $ds.spaces.inset-square.small
+
+-- ds.heading-small: Library
+
+-- ds.footer-link: Latest & Featured
+link: /
+
+-- ds.footer-link: Library Index
+link: /
+
+-- ds.footer-link: Snippets
+link: /
+
+-- ds.footer-link: Browse Subjects
+link: /
+
+-- end: ds.column
+
+-- ds.column:
+align-content: left
+inset: $ds.spaces.inset-square.small
+
+-- ds.heading-small: Account
+
+-- ds.footer-link: Sign In
+link: /
+
+-- ds.footer-link: Create Account
+link: /
+
+-- ds.footer-link: Go Pro
+link: /
+
+-- ds.footer-link: Testimonials
+link: /
+
+-- end: ds.column
+
+
+-- ds.column:
+align-content: left
+inset: $ds.spaces.inset-square.small
+
+-- ds.heading-small: Social
+
+-- ds.footer-link: RSS Feeds
+link: /
+
+-- ds.footer-link: Twitter
+link: /
+
+-- ds.footer-link: Facebook
+link: /
+
+-- ds.footer-link: YouTube
+link: /
+
+-- end: ds.column
+
+
+-- ds.column:
+align-content: left
+inset: $ds.spaces.inset-square.small
+
+-- ds.heading-small: Company
+
+-- ds.footer-link: Get in touch
+link: /
+
+-- ds.footer-link: Terms
+link: /
+
+-- ds.footer-link: Privacy policy
+link: /
+
+-- end: ds.column
+
+-- ds.column:
+align-content: left
+inset: $ds.spaces.inset-square.small
+
+-- ds.heading-small: Codecourse family
+
+-- ds.footer-link: Snippets
+link: /
+
+-- end: ds.column
+
+-- end: ds.row
+
+-- ds.row:
+;;background.solid: red
+align-content: right
+width: fill-container
+
+-- ds.copyright-text: © 2019 Codecourse Ltd. All rights reserved. Born in London, UK.company number 09041072.
+
+-- end: ds.row
+
+-- end: ds.section-column
+
+-- end: footer
