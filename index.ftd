@@ -47,6 +47,11 @@ spacing: $ds.spaces.vertical-gap.extra-large
 -- component header:
 
 -- ds.section-row:
+
+-- ftd.desktop:
+
+-- ds.row:
+width: fill-container
 spacing: $ds.spaces.horizontal-gap.space-between
 
 -- ds.row:
@@ -80,8 +85,51 @@ link: index.html
 
 -- end: ds.row
 
--- end: ds.section-row
+-- end: ds.row
 
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ds.row:
+width.fixed.vw: 96
+
+-- ds.row:
+width: hug-content
+
+-- ftd.image:
+src: $assets.files.assets.codecourse-4.svg
+width.fixed.px: 40
+
+-- ds.header-link: Library 
+link: /
+
+-- ds.header-link: Subjects
+link: /
+
+-- ds.header-link: Paths
+link: /
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.header-link: Sign in
+link: /
+
+-- button.button: Join Pro
+role: tertiary
+large: true
+link: index.html
+
+-- end: ds.row
+
+-- end: ds.row
+
+-- end: ftd.mobile
+
+-- end: ds.section-row
 
 -- end: header
 
@@ -96,6 +144,8 @@ link: index.html
 -- component hero-1:
 
 -- ds.section-row:
+
+-- ftd.desktop:
 
 -- ds.column:
 width.fixed.vw: 36
@@ -115,6 +165,30 @@ width: full
 
 -- end: ds.column
 
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ds.column:
+width.fixed.vw: 36
+align-content: center
+
+-- ds.heading-medium: Ready to build something awesome?
+align: center
+
+-- ds.heading-tiny: we create practical screencasts for awesome developers
+align: center
+
+-- ds.phosphor-icon-button: | search our library, e.g.learn vue 
+icon: magnifying-glass
+link: /search/
+kind: tertiary
+
+
+-- end: ds.column
+
+-- end: ftd.mobile
+
 -- end: ds.section-row
 
 -- end: hero-1
@@ -130,6 +204,10 @@ width: full
 -- component hero-2:
 
 -- ds.section-row:
+
+-- ftd.desktop:
+
+-- ds.row:
 spacing: $ds.spaces.horizontal-gap.space-between
 
 -- ds.row:
@@ -160,6 +238,32 @@ width: full
 
 -- end: ds.row
 
+-- end: ds.row
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ds.column:
+width.fixed.vw: 86
+align-content: center
+
+-- ds.heading-small: Practical projects to get you ahead
+align: center
+
+-- ds.heading-tiny: Rather than just tech theory, we focus on real code to inspire your next project.learning should'nt be boring so lets have some fun.
+align: center
+
+-- ds.phosphor-icon-button: Browse library
+icon: magnifying-glass
+link: /search/
+kind: tertiary
+width: full
+
+-- end: ds.column
+
+-- end: ftd.mobile
+
 -- end: ds.section-row
 
 -- end: hero-2
@@ -171,6 +275,10 @@ width: full
 
 
 -- component content:
+
+-- ds.section-row:
+
+-- ftd.desktop:
 
 -- ds.row:
 spacing: $ds.spaces.horizontal-gap.small
@@ -200,6 +308,37 @@ width: hug-content
 
 -- end: ds.row
 
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ds.row:
+spacing: $ds.spaces.horizontal-gap.small
+width: hug-content
+
+-- ds.column:
+align-content: center
+width.fixed.vw: 86
+
+-- ds.heading-small: Latest content
+align: center
+
+-- ds.heading-tiny: Fresh from library
+align: center
+
+-- ds.header-link: Browse Everything
+link: /
+
+-- card-container:
+
+-- end: ds.column
+
+-- end: ds.row
+
+-- end: ftd.mobile
+
+-- end: ds.section-row
+
 -- end: content
 
 
@@ -214,6 +353,8 @@ width: hug-content
 -- component testimonial-1:
 
 -- ds.section-row:
+
+-- ftd.desktop:
 
 -- ds.row:
 radius: $ds.radius.large
@@ -257,6 +398,55 @@ Josh Stobbs, Ontario, Canada anvildesign.ca
 
 -- end: ds.row
 
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ds.column:
+width.fixed.vw: 96
+radius: $ds.radius.large
+background.solid: $ds.colors.background.step-1
+align-content: center
+inset: $ds.spaces.inset-square.small
+
+-- ds.row:
+radius: $ds.radius.round
+width.fixed.px: 80
+height.fixed.px: 80
+
+-- ftd.image:
+src: $assets.files.assets.client-logo-1.png
+width: fill-container
+height: fill-container
+border-radius.px: 100
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.column:
+width.fixed.vw: 86
+align-content: center
+
+-- ds.copy-small: 
+align: center
+
+My career started as a designer. Out of necessity I needed to learn how to handle the entire stack. Codecourse took me from basically no knowledge of development to being able to handle every aspect of it.
+
+-- ds.fine-print: 
+align: center
+
+Josh Stobbs, Ontario, Canada anvildesign.ca
+
+-- end: ds.column
+
+-- end: ds.row
+
+-- end: ds.column
+
+-- end: ftd.mobile
+
 -- end: ds.section-row
 
 -- end: testimonial-1
@@ -273,6 +463,8 @@ Josh Stobbs, Ontario, Canada anvildesign.ca
 -- component hero-3:
 
 -- ds.section-row:
+
+-- ftd.desktop:
 
 -- ds.row:
 background.solid: $ds.colors.background.step-2
@@ -318,6 +510,36 @@ kind: tertiary
 
 -- end: ds.row
 
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ds.row:
+background.solid: $ds.colors.background.step-2
+width.fixed.vw: 86
+inset: $ds.spaces.inset-square.medium
+
+-- ds.column:
+width: hug-content
+align-content: center
+
+-- ds.heading-small: Unlimited access to everything with pro membership
+align: center
+
+-- ds.heading-tiny: For the price of few coffees a month, you get access to our entire library of content, and more.
+align: center
+
+-- ds.phosphor-icon-button: Browse library
+icon: magnifying-glass
+link: /search/
+kind: tertiary
+
+-- end: ds.column
+
+-- end: ds.row
+
+-- end: ftd.mobile
+
 -- end: ds.section-row
 
 -- end: hero-3
@@ -333,6 +555,8 @@ kind: tertiary
 -- component testimonial-2:
 
 -- ds.section-row:
+
+-- ftd.desktop:
 
 -- ds.row:
 radius: $ds.radius.large
@@ -375,6 +599,45 @@ Mark Townsend, Houseton, TX(@mtownsend5512)
 -- end: ds.row
 
 -- end: ds.row
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ds.column:
+radius: $ds.radius.large
+background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.horizontal-gap.large
+inset: $ds.spaces.inset-square.medium
+width.fixed.vw: 86
+align-content: center
+
+-- ds.row:
+radius: $ds.radius.round
+width.fixed.px: 80
+height.fixed.px: 80
+
+-- ftd.image:
+src: $assets.files.assets.client-logo-2.png
+width: fill-container
+height: fill-container
+border-radius.px: 100
+
+-- end: ds.row
+
+-- ds.copy-small: 
+align: center
+
+I credit codecourse as the single most beneficial learning resource to my development career. When I was learning my first programming language, Codecourse taught me how to develop simple applications and introduced me to the fundamentals. Now I develop complex applications and I'm a senior developer with my company. You put in the effort, Codecourse brings the knowledge! 
+
+-- ds.fine-print: 
+align: center
+
+Mark Townsend, Houseton, TX(@mtownsend5512)
+
+-- end: ds.column
+
+-- end: ftd.mobile
 
 -- end: ds.section-row
 
@@ -446,6 +709,10 @@ kind: tertiary
 -- component card-container: 
 
 -- ds.section-row:
+
+-- ftd.desktop:
+
+-- ds.row:
 spacing: $ds.spaces.horizontal-gap.space-between
 
 -- card:
@@ -453,6 +720,25 @@ spacing: $ds.spaces.horizontal-gap.space-between
 -- card:
 
 -- card:
+
+-- end: ds.row
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ds.column:
+spacing: $ds.spaces.vertical-gap.medium
+
+-- card:
+
+-- card:
+
+-- card:
+
+-- end: ds.column
+
+-- end: ftd.mobile
 
 -- end: ds.section-row
 
