@@ -126,6 +126,8 @@ link: index.html
 
 -- ds.row:
 width.fixed.vw: 80
+spacing: $ds.spaces.horizontal-gap.space-between
+inset: $ds.spaces.inset-square.small
 
 -- ds.row:
 width: hug-content
@@ -134,13 +136,13 @@ width: hug-content
 src: $assets.files.assets.codecourse-4.svg
 width.fixed.px: 40
 
--- ds.header-link: Library 
+/-- ds.header-link: Library 
 link: /
 
--- ds.header-link: Subjects
+/-- ds.header-link: Subjects
 link: /
 
--- ds.header-link: Paths
+/-- ds.header-link: Paths
 link: /
 
 -- end: ds.row
@@ -148,13 +150,18 @@ link: /
 -- ds.row:
 width: hug-content
 
--- ds.header-link: Sign in
+/-- ds.header-link: Sign in
 link: /
 
--- button.button: Join Pro
+/-- button.button: Join Pro
 role: tertiary
 large: true
 link: index.html
+
+-- ds.phosphor-icon-button: 
+icon: list
+link: /
+kind: tertiary
 
 -- end: ds.row
 
