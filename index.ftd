@@ -4,6 +4,8 @@
 
 -- ds.page:
 
+-- ftd.desktop:
+
 -- ds.section-column:
 spacing: $ds.spaces.vertical-gap.medium
 
@@ -33,6 +35,37 @@ spacing: $ds.spaces.vertical-gap.extra-large
 -- end: ds.column
 
 -- end: ds.section-column
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+
+-- header:
+
+-- hero-1:
+
+-- hero-2:
+
+-- testimonial-1:
+
+-- content:
+
+-- hero-3:
+
+-- ds.heading-medium: Featured Content
+
+-- card-container:
+
+-- testimonial-2:
+
+-- footer:
+
+-- end: ds.section-column
+
+-- end: ftd.mobile
 
 -- end: ds.page
 
