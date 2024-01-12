@@ -125,7 +125,7 @@ link: index.html
 -- ftd.mobile:
 
 -- ds.row:
-width.fixed.vw: 96
+width.fixed.vw: 80
 
 -- ds.row:
 width: hug-content
@@ -278,7 +278,7 @@ width: full
 -- ftd.mobile:
 
 -- ds.column:
-width.fixed.vw: 86
+width.fixed.vw: 80
 align-content: center
 
 -- ds.heading-small: Practical projects to get you ahead
@@ -351,7 +351,7 @@ width: hug-content
 
 -- ds.column:
 align-content: center
-width.fixed.vw: 86
+width.fixed.vw: 80
 
 -- ds.heading-small: Latest content
 align: center
@@ -459,7 +459,7 @@ border-radius.px: 100
 width: hug-content
 
 -- ds.column:
-width.fixed.vw: 86
+width.fixed.vw: 80
 align-content: center
 
 -- ds.copy-small: 
@@ -549,7 +549,7 @@ kind: tertiary
 
 -- ds.row:
 background.solid: $ds.colors.background.step-2
-width.fixed.vw: 86
+width.fixed.vw: 80
 inset: $ds.spaces.inset-square.medium
 
 -- ds.column:
@@ -642,7 +642,7 @@ radius: $ds.radius.large
 background.solid: $ds.colors.background.step-1
 spacing: $ds.spaces.horizontal-gap.large
 inset: $ds.spaces.inset-square.medium
-width.fixed.vw: 86
+width.fixed.vw: 80
 align-content: center
 
 -- ds.row:
@@ -907,7 +907,7 @@ align: center
 inset: $ds.spaces.inset-square.large
 
 -- ds.column:
-width.fixed.vw: 86
+width.fixed.vw: 80
 align-content: left
 inset: $ds.spaces.inset-square.small
 
@@ -928,7 +928,7 @@ link: /
 -- end: ds.column
 
 -- ds.column:
-width.fixed.vw: 86
+width.fixed.vw: 80
 align-content: left
 inset: $ds.spaces.inset-square.small
 
@@ -950,7 +950,7 @@ link: /
 
 
 -- ds.column:
-width.fixed.vw: 86
+width.fixed.vw: 80
 align-content: left
 inset: $ds.spaces.inset-square.small
 
@@ -972,7 +972,7 @@ link: /
 
 
 -- ds.column:
-width.fixed.vw: 86
+width.fixed.vw: 80
 align-content: left
 inset: $ds.spaces.inset-square.small
 
@@ -990,7 +990,7 @@ link: /
 -- end: ds.column
 
 -- ds.column:
-width.fixed.vw: 86
+width.fixed.vw: 80
 align-content: left
 inset: $ds.spaces.inset-square.small
 
@@ -1005,7 +1005,7 @@ link: /
 
 -- ds.row:
 align-content: center
-width.fixed.vw: 86 
+width.fixed.vw: 80 
 inset: $ds.spaces.inset-square.small
 background.solid: $ds.colors.background.step-2
 
