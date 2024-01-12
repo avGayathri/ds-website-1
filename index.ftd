@@ -129,12 +129,16 @@ link: index.html
 
 -- ds.row:
 width.fixed.vw: 86
-spacing: $ds.spaces.horizontal-gap.space-between
 inset: $ds.spaces.inset-square.small
 background.solid: $ds.colors.background.step-2
 
 -- ds.row:
 if: {!menu-open}
+spacing: $ds.spaces.horizontal-gap.space-between
+inset: $ds.spaces.inset-square.small
+width: fill-container 
+
+-- ds.row:
 width: hug-content
 
 -- ftd.image:
@@ -144,14 +148,14 @@ width.fixed.px: 40
 -- end: ds.row
 
 -- ds.row:
-if: {!menu-open}
 width: hug-content
 
 -- ds.phosphor-icon-button: 
 icon: list
-link: /
 kind: tertiary
 $on-click$: $ftd.set-bool($a = $menu-open, v = true)
+
+-- end: ds.row
 
 -- end: ds.row
 
@@ -188,8 +192,7 @@ width: hug-content
 align-content: right
 
 -- ds.phosphor-icon-button: 
-icon: x-circle
-link: /
+icon: list
 kind: tertiary
 $on-click$: $ftd.set-bool($a = $menu-open, v = false)
 
