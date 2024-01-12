@@ -75,6 +75,9 @@ spacing: $ds.spaces.vertical-gap.medium
 
 
 
+-- boolean $menu-open: false
+
+
 
 
 -- component header:
@@ -125,45 +128,34 @@ link: index.html
 -- ftd.mobile:
 
 -- ds.row:
-width.fixed.vw: 80
+width.fixed.vw: 86
 spacing: $ds.spaces.horizontal-gap.space-between
 inset: $ds.spaces.inset-square.small
+background.solid: $ds.colors.background.step-2
 
 -- ds.row:
+if: {!menu-open}
 width: hug-content
 
 -- ftd.image:
 src: $assets.files.assets.codecourse-4.svg
 width.fixed.px: 40
 
-/-- ds.header-link: Library 
-link: /
-
-/-- ds.header-link: Subjects
-link: /
-
-/-- ds.header-link: Paths
-link: /
-
 -- end: ds.row
 
 -- ds.row:
+if: {!menu-open}
 width: hug-content
-
-/-- ds.header-link: Sign in
-link: /
-
-/-- button.button: Join Pro
-role: tertiary
-large: true
-link: index.html
 
 -- ds.phosphor-icon-button: 
 icon: list
 link: /
 kind: tertiary
+$on-click$: $ftd.set-bool($a = $menu-open, v = true)
 
 -- end: ds.row
+
+-- dropdown:
 
 -- end: ds.row
 
@@ -172,6 +164,59 @@ kind: tertiary
 -- end: ds.section-row
 
 -- end: header
+
+
+
+
+
+
+
+
+
+-- component dropdown:
+
+-- ds.section-column:
+if: {menu-open}
+
+-- ds.column:
+width.fixed.vw: 86
+inset: $ds.spaces.inset-square.medium
+spacing: $ds.spaces.vertical-gap.medium
+
+-- ds.row:
+width: hug-content
+align-content: right
+
+-- ds.phosphor-icon-button: 
+icon: x-circle
+link: /
+kind: tertiary
+$on-click$: $ftd.set-bool($a = $menu-open, v = false)
+
+-- end: ds.row
+
+-- ds.header-link: Library 
+link: /
+
+-- ds.header-link: Subjects
+link: /
+
+-- ds.header-link: Paths
+link: /
+
+-- ds.header-link: Sign in
+link: /
+
+-- button.button: Join Pro
+role: tertiary
+large: true
+link: index.html
+
+-- end: ds.column
+
+-- end: ds.section-column
+
+-- end: dropdown
 
 
 
