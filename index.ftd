@@ -757,6 +757,8 @@ spacing: $ds.spaces.vertical-gap.medium
 
 -- ds.section-column:
 
+-- ftd.desktop:
+
 -- ds.row:
 align-content: top-center
 inset: $ds.spaces.inset-square.large
@@ -863,6 +865,123 @@ background.solid: $ds.colors.background.step-2
 align: center
 
 -- end: ds.row
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ds.column:
+inset: $ds.spaces.inset-square.large
+
+-- ds.column:
+width.fixed.vw: 86
+align-content: left
+inset: $ds.spaces.inset-square.small
+
+-- ds.heading-small: Library
+
+-- ds.footer-link: Latest & Featured
+link: /
+
+-- ds.footer-link: Library Index
+link: /
+
+-- ds.footer-link: Snippets
+link: /
+
+-- ds.footer-link: Browse Subjects
+link: /
+
+-- end: ds.column
+
+-- ds.column:
+width.fixed.vw: 86
+align-content: left
+inset: $ds.spaces.inset-square.small
+
+-- ds.heading-small: Account
+
+-- ds.footer-link: Sign In
+link: /
+
+-- ds.footer-link: Create Account
+link: /
+
+-- ds.footer-link: Go Pro
+link: /
+
+-- ds.footer-link: Testimonials
+link: /
+
+-- end: ds.column
+
+
+-- ds.column:
+width.fixed.vw: 86
+align-content: left
+inset: $ds.spaces.inset-square.small
+
+-- ds.heading-small: Social
+
+-- ds.footer-link: RSS Feeds
+link: /
+
+-- ds.footer-link: Twitter
+link: /
+
+-- ds.footer-link: Facebook
+link: /
+
+-- ds.footer-link: YouTube
+link: /
+
+-- end: ds.column
+
+
+-- ds.column:
+width.fixed.vw: 86
+align-content: left
+inset: $ds.spaces.inset-square.small
+
+-- ds.heading-small: Company
+
+-- ds.footer-link: Get in touch
+link: /
+
+-- ds.footer-link: Terms
+link: /
+
+-- ds.footer-link: Privacy policy
+link: /
+
+-- end: ds.column
+
+-- ds.column:
+width.fixed.vw: 86
+align-content: left
+inset: $ds.spaces.inset-square.small
+
+-- ds.heading-small: Codecourse family
+
+-- ds.footer-link: Snippets
+link: /
+
+-- end: ds.column
+
+-- end: ds.column
+
+-- ds.row:
+align-content: center
+width.fixed.vw: 86 
+inset: $ds.spaces.inset-square.small
+background.solid: $ds.colors.background.step-2
+
+-- ds.fine-print: © 2019 Codecourse Ltd. All rights reserved. Born in London, UK.company number 09041072.
+align: center
+
+-- end: ds.row
+
+-- end: ftd.mobile
 
 -- end: ds.section-column
 
